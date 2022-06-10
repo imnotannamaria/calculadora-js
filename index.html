@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div id="background-light-mode" class="calculator-wrapper">
+        <div id="calculator-background-light-mode" class="calculator">
+            <header>
+                <div onclick="ChangeToLightMode()" class="light-mode">
+                    <span>Light Mode</span>
+                </div>
+
+                <div id="sreen-background-light-mode" class="screen">
+                    <p id="resultado"></p>
+                </div>
+            </header>
+
+            <section>
+                <div class="buttons-wrapper-one">
+                    <div onclick="clean()" class="buttons">
+                        <span>CLEAR</span>
+                    </div>
+                    <div onclick="back()" class="buttons">
+                        <img src="/assets/delete.svg" alt="Deletar">
+                    </div>
+                    <div onclick="insert('/')" class="buttons">
+                        <span>/</span>
+                    </div>
+                </div>
+                <div class="buttons-wrapper-two">
+                    <div onclick="insert('7')" class="buttons">
+                        <span>7</span>
+                    </div>
+                    <div onclick="insert('8')" class="buttons">
+                        <span>8</span>
+                    </div>
+                    <div onclick="insert('9')" class="buttons">
+                        <span>9</span>
+                    </div>
+                    <div onclick="insert('*')" class="buttons">
+                        <span>X</span>
+                    </div>
+                </div>
+                <div class="buttons-wrapper-three">
+                    <div onclick="insert('4')" class="buttons">
+                        <span>4</span>
+                    </div>
+                    <div onclick="insert('5')" class="buttons">
+                        <span>5</span>
+                    </div>
+                    <div onclick="insert('6')" class="buttons">
+                        <span>6</span>
+                    </div>
+                    <div onclick="insert('-')" class="buttons">
+                        <span> - </span>
+                    </div>
+                </div>
+                <div class="buttons-wrapper-four">
+                    <div onclick="insert('1')" class="buttons">
+                        <span>1</span>
+                    </div>
+                    <div onclick="insert('2')" class="buttons">
+                        <span>2</span>
+                    </div>
+                    <div onclick="insert('3')" class="buttons">
+                        <span>3</sám>
+                    </div>
+                    <div onclick="insert('+')" class="buttons">
+                        <span> + </span>
+                    </div>
+                </div>
+                <div class="buttons-wrapper-five">
+                    <div onclick="insert('0')" class="buttons">
+                        <span>0</span>
+                    </div>
+                    <div onclick="calcular()" class="buttons">
+                        <span>=</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

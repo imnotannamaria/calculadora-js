@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363636;
+    color: #FFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.calculator-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    background-color: #000;
+    width: 20vw;
+    height: 78vh;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+}
+
+.buttons:hover{
+    opacity: 0.9;
+}
+
+.screen{
+    background-color:#0E0E0E;
+    height: 20vh;
+    border-radius: 20px;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.screen p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D4325A;
+}
+
+.buttons-wrapper-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.buttons-wrapper-one .buttons{
+    width: 6rem;
+    height: 4rem;
+    background-color: #3554D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttons-wrapper-one .buttons img{
+    width: 2rem;
+    height: 2rem
+}
+
+.buttons-wrapper-one .buttons span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttons-wrapper-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.buttons-wrapper-two .buttons{
+    width: 4.5rem;
+    height: 4rem;
+    background-color: #3554D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttons-wrapper-two .buttons span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttons-wrapper-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.buttons-wrapper-three .buttons{
+    width: 4.5rem;
+    height: 4rem;
+    background-color: #3554D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttons-wrapper-three .buttons span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttons-wrapper-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.buttons-wrapper-four .buttons{
+    width: 4.5rem;
+    height: 4rem;
+    background-color: #3554D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttons-wrapper-four .buttons span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttons-wrapper-five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.buttons-wrapper-five .buttons{
+    width: 4.5rem;
+    height: 4rem;
+    background-color: #3554D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttons-wrapper-five .buttons span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.light-mode{
+    background-color: #D4325A;
+    margin: 1rem auto;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.light-mode:hover{
+    opacity: 0.9;
+}
